@@ -1,0 +1,456 @@
+html, body{
+    margin: 0;
+    background-color: rgb(236, 255, 252);
+  }
+  header{
+      background-color: red;
+      color:white;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+  }
+  #logo{
+      width: 65px;
+      position: absolute;
+      top: 5px;
+      margin-left: 5%;
+      margin-top: 0px;
+  }
+  #menu{
+      float: right;
+      margin-right: 1%;
+      list-style: none;
+      margin-top: 1%;
+  }
+  #menu1{
+    clear: both;
+  }
+  #menu2{
+    clear: both;
+  }
+  #menu3{
+    clear: both;
+  }
+  #menu4{
+    clear: both;
+  }
+  #menu41{
+      clear: both;
+      text-align: justify;
+      margin-left: 3%;
+      margin-right: 3%;
+      padding-top: 2%;
+  }
+  #menu5{
+    clear: both;
+    padding: 5%;
+    margin-top: 5%;
+    width: 98%;
+    widows: inherit;
+    float: right;
+}
+#menu3{
+    padding: 0 5%;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 4%;
+}
+#menu4{
+    padding: 0 5%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+  li{
+      float: left;
+      padding: 10 20 10 20;
+      display: inline-block;
+  }
+  li:hover{
+      background-color: yellow;
+  }
+  #capa {
+      background: url("capa.jpeg");
+      height: 100%;
+      text-align: center;
+      background-size: cover;
+      width: 100%;
+  }
+  #t1{
+      color: white;
+      padding-top: 20%;
+      font-size: 70px;
+      line-height: 0.6;
+      text-shadow: 2px 2px black;
+  }
+  #t2 {
+      color: white;
+      margin-left: 20%;
+      margin-right: 20%;
+      border-top: 7px solid white;
+      text-shadow: 2px 2px  black;
+  }
+  #t3{
+      color: white;
+      margin-left: 20%;
+      margin-right: 20%;
+      text-shadow:2px 2px   black;
+      font-size: 13px;
+  }
+  #acao {
+      color: blue;
+      border: 4px rgb(10, 10, 219) solid;
+      padding: 10px 20px 10px 20px ;
+  }
+ #botao{
+    color: white;
+    padding: 10px 20px 10px 20px ;
+    text-decoration: none;
+ }
+ #comecar{
+     text-align: justify;
+ }
+  #c1{
+      color: blue;
+      padding-top: 4%;
+      font-size: 50px;
+      line-height: 0.8;
+      text-shadow: 2px 2px rgb(0, 0, 0);
+      text-align: center;
+  }
+  #n1{
+      color:blue;
+      padding-top: 2%;
+      font-size: 35px;
+      line-height: 0.8;
+      text-align: center;
+      text-shadow: black;
+  }
+  #c2{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c3{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c4{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c5{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c6{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c7{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c8{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c9{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c10{
+      color: blue;
+      padding-top: 4%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+  }
+  #c11{
+      color: blue;
+      padding-top: 2%;
+      font-size: 25px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+      margin-top: 1%;
+  }
+  #c12{
+      color: blue;
+      padding-top: 2%;
+      font-size: 30px;
+      line-height: 0.8;
+      text-shadow: 1px 1px black;
+      text-align: center;
+      margin-top: 1%;
+      padding-left: 10%;
+      margin-left: 10%;
+      padding-right: 10%;
+      margin-right: 10%;
+  }
+  .m4{
+    float:left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.m5{
+    float: right;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.m10{
+    float: left;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+  .coluna1 {    
+      float: left;
+      padding: auto;
+      position: relative;
+      width: 45%;
+  }
+  .coluna2{
+    float: left;
+    padding: 5%;
+    position: relative;
+    width: 45%;
+}
+.colunaquatro{
+    float: right;
+    position: relative;
+    width: 14%;
+    padding: 8px;
+}
+  iframe[AttributesStyle] {
+      width: 100%;
+      height: auto;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+      border-left-width: 0px;
+  }
+  iframe[useragentstylesheet] {
+      border-width: 2px;
+      border-style: inset;
+      border-color: initial;
+      border-image: initial;
+  }
+  .centralizado{
+      text-align: center;
+  }
+  .justificado{
+      text-align: justify;
+  }
+  #mudança{
+      padding-top: 8%;
+  }
+  .cup{
+      background-color: rgb(191, 239, 248);
+      float:right;
+      width: 30%;
+      padding: 2%;
+  }
+  #m1{
+      float: right;
+      background-color: rgb(191, 239, 248);
+      padding: 1%;
+      margin-right: 10%;
+    }
+    #perfil{
+       text-align: justify;
+       widows: unset;
+       width: 50%; 
+       padding-left: 18%;
+       float: left;  
+    }
+
+  .color2{
+      float: left;
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 5%;
+  }
+  .cordefundo{
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  #video{
+      padding-top: 3%;
+  }
+  .fundo{
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+  }
+  .fundo2{
+      padding-left: 20%;
+      padding-right: 20%;
+  }
+  .centralizado{
+    text-align: center;
+}
+#audio{
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-style: solid;
+    border-color: blue;
+    background-color: aquamarine;
+    margin-left: 4%;
+}
+#creditos{
+    font-size: 25px;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+.topicoscreditos{
+    display: inline-flex;
+    float: center;
+    width:25%;
+    padding: none;
+    margin-left: 22%;
+    margin-right: 5%;
+
+}
+
+.topicoscreditos2{
+    display: block;
+    float: center;
+    width:40%;
+    padding-top: 1%;
+    margin-left: 10%;
+}
+
+.topicoscreditos3{
+    display: block;
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+
+.tamanhoicone{
+    width: 60px;
+    float: right;
+    padding: 10px;
+}
+#contato{
+    width: 100%;  
+    padding: 0;
+}
+.fundoaquamarine{
+    background-color: aquamarine;
+}
+#email{
+    color: black;
+}
+.icone1{
+    width: 50px;
+}
+#iconespart{
+    padding: 5px;
+    margin-left: 0%;
+}
+  footer{
+    background-color: red;
+    color: white;
+    float: left;
+    width: 100%;
+    height: 330px;
+}
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna1{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+    .coluna2{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+    .colunaquatro{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0;
+    }
+    #logo{
+        margin-left: 0;
+        transform: translateX(-50%);
+    }
+    header{
+        width: 100%;
+        position: absolute;
+    }
+    .topicoscreditos{
+        width: 30%;
+        margin: 2%;
+    }
+    .topicoscreditos2{
+        width: 75%;
+        margin-left: 3%;
+    }
+    .topicoscreditos3{
+        width: 75%;
+    }
+    .tamanhoicone{
+        width: 33px;
+        padding: 3px;
+
+    }
+}
